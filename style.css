@@ -1,0 +1,121 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width:  100vw;
+    box-shadow: 0 5px 10px 0 rgba(172, 181, 185, 0.4);
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(255, 243, 230);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(255, 218, 179);
+    box-sizing: border-box;
+    height: 15vh;
+}
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 160%;
+    
+    margin-left: 3%;
+    color: saddlebrown
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 1%;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: -1px;
+    font-size: 100%;
+    color: white;
+    
+}
+
+nav ul li {
+   margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:white;
+}
+
+nav ul li a:hover {
+    color: beige;
+    
+}
+
+#pics {
+    background-image: url(img/pfit.jpg);
+    background-size:cover;
+    height: 70vh;
+    width: 100vw;
+    box-shadow: 0 5px 10px 0 rgba(172, 181, 185, 0.4);
+}
+
+#rulez {
+    background-color: rgb(255, 243, 230);
+    height: 0vh; 
+    
+}
+.a {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 243, 230);
+    color: rgb(182, 175, 175);
+    height: 40vh;
+    align-items: center;
+}
+
+#items {
+    display: flex;
+    justify-content: space-around;
+     
+}
+
+.boxes {
+    background-color: rgba(166, 166, 166, 0.3);
+    width: 25vw;
+    font-size: 120%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 2vw;
+    color: saddlebrown;
+    text-align: justify;
+}
+
+#dog1 {
+    
+    /*background-image: url(img/pfit2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+    
+}
+#dog2 {
+   /* background-image: url(img/pfit3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+    
+}
+#dog3 {
+    /*background-image: url(img/pfit4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;*/
+    
+}
