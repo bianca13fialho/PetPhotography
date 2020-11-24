@@ -119,3 +119,13 @@ nav ul li a:hover {
     background-size: contain;*/
     
 }
+
+footer {
+    display: flex;
+    height: 13vh;
+    background-color: rgb(255, 218, 179);
+    margin-top: 25vh;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
